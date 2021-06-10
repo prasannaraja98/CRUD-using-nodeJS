@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Schema = require('../models/crmModel');
-
+//contact
 const contact = mongoose.model('contact',Schema);
 
 module.exports.addContact =  (req,res) =>{
